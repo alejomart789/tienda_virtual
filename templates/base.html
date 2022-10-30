@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Flask Platzi | {% endblock %}</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        {% include 'navbar.html' %}
+    </header> 
+    
+    <main class="main">
+        <div class="container">
+
+            <h1>Prueba de titulo</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nihil ab nisi vel nemo nobis, excepturi ratione atque repudiandae saepe, placeat eveniet similique est iusto rem porro amet, inventore tempore.
+            </p>
+        </div>
+    </main>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Pagina Diseñada por @Alejandro Martinez
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
